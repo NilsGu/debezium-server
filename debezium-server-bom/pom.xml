@@ -12,7 +12,8 @@
     <packaging>jar</packaging>
 
     <properties>
-        <version.kinesis>2.13.13</version.kinesis>
+        <version.kinesis>2.20.127</version.kinesis>
+        <version.sts>2.20.127</version.sts>
         <version.pubsub>26.17.0</version.pubsub>
         <version.pulsar>2.10.1</version.pulsar>
         <version.eventhubs>5.12.1</version.eventhubs>
@@ -196,6 +197,11 @@
                 <groupId>software.amazon.awssdk</groupId>
                 <artifactId>kinesis</artifactId>
                 <version>${version.kinesis}</version>
+            </dependency>
+            <dependency>
+                <groupId>software.amazon.awssdk</groupId>
+                <artifactId>sts</artifactId>
+                <version>${version.sts}</version>
             </dependency>
             <dependency>
                 <groupId>com.google.cloud</groupId>
